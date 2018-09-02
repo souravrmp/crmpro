@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[validLoginis passed]]>
+    </line>
+    <line>
+      <![CDATA[inValidLoginis passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25203" started-at="2018-09-02T19:01:22Z" finished-at="2018-09-02T19:01:47Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="25203" started-at="2018-09-02T19:01:22Z" finished-at="2018-09-02T19:01:47Z">
+      <class name="com.crmpro.testscript.LoginTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crmpro.testscript.LoginTest@95a785]" name="setup" is-config="true" duration-ms="7946" started-at="2018-09-02T19:01:22Z" finished-at="2018-09-02T19:01:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.crmpro.testscript.LoginTest@95a785]" name="validLogin" duration-ms="6329" started-at="2018-09-02T19:01:30Z" finished-at="2018-09-02T19:01:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.crmpro.testscript.LoginTest@95a785]" name="teardown" is-config="true" duration-ms="2640" started-at="2018-09-02T19:01:36Z" finished-at="2018-09-02T19:01:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=LoginTest.validLogin()[pri:0, instance:com.crmpro.testscript.LoginTest@95a785] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[validLoginis passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.crmpro.testscript.LoginTest@95a785]" name="setup" is-config="true" duration-ms="7370" started-at="2018-09-02T19:01:39Z" finished-at="2018-09-02T19:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="inValidLogin()[pri:2, instance:com.crmpro.testscript.LoginTest@95a785]" name="inValidLogin" duration-ms="823" started-at="2018-09-02T19:01:46Z" finished-at="2018-09-02T19:01:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidLogin -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.crmpro.testscript.LoginTest@95a785]" name="teardown" is-config="true" duration-ms="59" started-at="2018-09-02T19:01:47Z" finished-at="2018-09-02T19:01:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=inValidLogin status=SUCCESS method=LoginTest.inValidLogin()[pri:2, instance:com.crmpro.testscript.LoginTest@95a785] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[inValidLoginis passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.crmpro.testscript.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
